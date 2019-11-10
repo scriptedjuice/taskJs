@@ -1,4 +1,3 @@
-
 function sequence(number = 0, step = 1) {
   let chek = 0;
 
@@ -7,7 +6,7 @@ function sequence(number = 0, step = 1) {
       chek++;
       return number;
     }
-    return number += step 
+    return number += step;
   }
 }
 
