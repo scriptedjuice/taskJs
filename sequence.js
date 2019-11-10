@@ -1,9 +1,9 @@
 function sequence(number = 0, step = 1) {
-  let chek = 0;
+  let check = 0;
 
   return function generator(){
-    if (chek === 0) {
-      chek++;
+    if (check === 0) {
+      check++;
       return number;
     }
     return number += step;
